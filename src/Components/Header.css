@@ -1,0 +1,31 @@
+/* Styles for the header */
+.header {
+    padding: 20px;
+    background-color: white; /* Background color of the header */
+    text-align: center;
+  }
+  
+  /* Styles for the line below the header */
+  .line-below-header {
+    height: 8vh; /* Adjust the height of the line */
+    background-color: #a51c24; /* Color of the line */
+    width: 100%; /* Ensures the line spans the full width of the viewport */
+  }
+  
+  /* Optional: To add space between the line and the content */
+  .content {
+    padding: 20px;
+  }
+  .erp {
+    color: #337AB7; /* Set the text color to blue */
+    display: inline-block; /* Allows transformation and other styling */
+    transform: skew(-10deg); /* Slants the text by 10 degrees */
+  }
+.id-number {
+    position: absolute; /* Position relative to the closest positioned ancestor (header-container) */
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    font-size: 1em; /* Adjust font size as needed */
+    color: #000; /* Text color */
+    font-weight: bold;
+  }
